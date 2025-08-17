@@ -1,0 +1,41 @@
+{
+  "title": "Questionnaire de Satisfaction Client",
+  "description": "Enquête de satisfaction sur nos services",
+  "version": "1.0",
+  "language": "fr",
+  "questions": {
+    "Q1": {
+      "label": "Comment évaluez-vous notre service ?",
+      "type": "single_choice",
+      "required": true,
+      "options": {
+        "1": "Très insatisfait",
+        "2": "Insatisfait",
+        "3": "Neutre",
+        "4": "Satisfait",
+        "5": "Très satisfait"
+      }
+    },
+    "Q2_MONTANTS": {
+      "label": "Quel montant avez-vous dépensé ?",
+      "type": "numeric",
+      "format": "currency"
+    },
+    "Q3": {
+      "label": "Recommanderiez-vous nos services ?",
+      "type": "single_choice",
+      "options": {
+        "1": "Certainement pas",
+        "2": "Probablement pas",
+        "3": "Peut-être",
+        "4": "Probablement",
+        "5": "Certainement"
+      }
+    },
+    "Q4_AUTRE": {
+      "label": "Commentaires supplémentaires",
+      "type": "text",
+      "format": "open_text"
+    }
+  }
+}
